@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 800px;
+  min-height: 50vh;
+  padding: 3rem;
+  background-color: rgb(239, 227, 197);
+  border-radius: 1rem;
+  box-shadow: 0 0 10px #0000001a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: 3rem;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 2.5rem;
+  color: #85641b;
+}
+
+.addingTask {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#inputAdd {
+  margin-right: 0.5rem;
+  font-size: 1rem;
+  height: 3rem;
+  width: 20rem;
+  padding: 0.5rem;
+  border: 1px solid #433a3a;
+  border-radius: 0.5rem;
+}
+
+button {
+  height: 3rem;
+  width: 8rem;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #4bafa0;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #50800a;
+}
+
+.taskCount {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.taskCount h3 {
+  font-size: 1.2rem;
+  color: #50800a;
+}
+
+.check {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: #dbfafc;
+  border: 1px solid #798041;
+  border-radius: 0.5rem;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.check p {
+  margin-right: 2rem;
+  font-weight: bold;
+}
+
+.checkId {
+  color: #333;
+}
+
+.fa-delete-left {
+  color: #555;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.fa-delete-left:hover {
+  color: rgb(225, 0, 26);
+}
+
+.clearTasks {
+  font-size: medium;
+  font-weight: bold;
+  color: #3462b2;
+}
+
+.taskCheckbox {
+  margin-right: 1rem;
+}
